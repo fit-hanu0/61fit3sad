@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #eafaf1;
+}
+
+#game {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Farm UI */
+#farmUI {
+    text-align: center;
+}
+
+#treeArea {
+    margin: 20px;
+    padding: 20px;
+    background: #cce5ff;
+    border-radius: 10px;
+    min-height: 150px;
+}
+
+#controls button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+#controls button:hover {
+    background: #45a049;
+}
+
+/* Popups */
+.popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.hidden {
+    display: none;
+}
+
+.treeOption {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.treeOption:hover {
+    background: #f1f1f1;
+}

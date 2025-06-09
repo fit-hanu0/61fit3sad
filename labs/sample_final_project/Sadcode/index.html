@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <!-- Main Farm UI -->
+        <div id="farmUI">
+            <h1>My Farm</h1>
+            <div id="treeArea">
+                <!-- Tree Placeholder -->
+                <div id="tree">
+                    <p>No tree planted yet.</p>
+                </div>
+            </div>
+            <div id="controls">
+                <button id="changeTree">Change Tree</button>
+                <button id="waterTree">Water</button>
+                <button id="friendAssist">Friend Assist</button>
+                <button id="collectWater">Collect Rainwater</button>
+                <button id="completeTask">Complete Task</button>
+                <button id="openItemShop">Items</button>
+                <button id="viewEvents">Events</button>
+                <button id="viewNotifications">Notifications</button>
+                <button id="help">Help</button>
+            </div>
+        </div>
+
+        <!-- Tree List UI -->
+        <div id="treeListUI" class="popup hidden">
+            <h2>Select a Tree</h2>
+            <div id="treeList">
+                <div class="treeOption" data-cost="0">Free Tree</div>
+                <div class="treeOption" data-cost="50">Apple Tree (50 Coins)</div>
+                <div class="treeOption" data-cost="100">Orange Tree (100 Coins)</div>
+            </div>
+            <button id="closeTreeList">Cancel</button>
+        </div>
+
+        <!-- Friend Assist UI -->
+        <div id="friendAssistUI" class="popup hidden">
+            <h2>Friend List</h2>
+            <div id="friendList">
+                <p>Friend 1</p>
+                <p>Friend 2</p>
+                <p>Friend 3</p>
+            </div>
+            <button id="visitFriend">Visit Friend</button>
+            <button id="closeFriendAssist">Back</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
